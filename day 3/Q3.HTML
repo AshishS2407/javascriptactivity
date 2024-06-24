@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="div">
+
+    </div>
+    <script>
+
+        let x= document.createElement ("select");
+        x.id= "drop";
+        document.getElementById ("div") .appendChild (x);
+        
+
+        let y = document.createElement ("option")
+        y.innerHTML = " Javascript";
+        document.getElementById ("drop") .appendChild (y);
+
+        let z= document.createElement ("option");
+        z.innerHTML= "CSS";
+        document.getElementById ("drop") .appendChild (z);
+
+        let a= document.createElement ("option")
+        a.innerHTML= "Html";
+        document.getElementById ("drop") .appendChild (a);
+
+    </script>
+</body>
+</html>
